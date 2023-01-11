@@ -1,0 +1,13 @@
+.header {
+    background-color: brown;
+    position: sticky;
+    top: 0;
+    padding: 15px 0;
+    z-index: 9;
+
+    .category-name {
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+}

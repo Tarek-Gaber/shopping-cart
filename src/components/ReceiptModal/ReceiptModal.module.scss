@@ -1,0 +1,38 @@
+.product-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+
+    .name {
+        margin-bottom: 0;
+        margin-inline-end: 10px;
+        max-width: 50%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 600;
+    }
+    .price {
+        margin-bottom: 0;
+    }
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .price {
+        font-size: 20px;
+        font-weight: 600;
+        color: brown;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+}

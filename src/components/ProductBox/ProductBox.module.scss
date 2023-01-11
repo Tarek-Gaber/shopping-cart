@@ -1,0 +1,17 @@
+.product-box {
+    position: relative;
+
+    :global(.btn) {
+        border-radius: 0 0 0.375rem 0.375rem;
+    }
+    :global(.card-title) {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .price {
+        color: brown;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,19 @@
+.products-filter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    :global(.form-group) {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+
+        :global(.form-label) {
+            margin-bottom: 0;
+            margin-inline-end: 10px;
+        }
+        :global(.form-control) {
+            min-width: 150px;
+        }
+    }
+}
